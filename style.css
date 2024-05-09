@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    background-color: rgba(34, 33, 31, 0.85);
+    align-items: center;
+    justify-content: space-between; 
+    font-size:1.2em;
+    padding: 0.5em;
+}
+
+header a i {
+    color:white;
+    font-size: 3em;
+    padding: 0.4em;
+    margin: 0.4em;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+
+header nav ul li a {
+    color:white;    
+    }
+
+
+main{
+    font-family: roboto;
+    font-size:1.1em;
+}
+
+.seccion-1 {
+    background-color: rgb(218, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.seccion-2{
+    width: 100%;
+}
+
+
+.seccion-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 30%; /* Ajusta el ancho de las columnas según tu diseño */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    text-align: center;
+}
+
+.columna img {
+    width: 100%;
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes según tu diseño */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.columna h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.columna p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.boton-compra {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #880044;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#footer a {
+color:azure
+
+}
+
+ 
+
+#fotoyo {
+    border-radius: 25%;
+    width: 200px;
+    padding: 1em;
+  }
+
+  
+  
+footer{
+    background-color:rgba(34, 33, 31, 0.85);
+    font-family: roboto;
+    font-size:1.1em;
+    width: 100%;
+    padding: 1em;
+    color:white;
+    }
+
+
+footer a i {
+    color:white;
+    font-size: 3em;
+    padding: 0.1em;
+    margin: 0.1em;
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(203, 134, 6);
+}
+
+
+.pie{
+    color:white;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+    font-size: 16px;
+    }
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    }
+    }
+
+    
